@@ -5,10 +5,15 @@ The term rectilinear means the interior angles of the packed blocks are either 9
 
 ![](images/problem_description.png)
 
+# Requirements
+mpi4py
+pyclipper
+Polygon
+
 # How to run
 python main.py -d data_file.txt
 
-# result
+# Result
 This is an packing example. In our dataset, the average occupation rate is 85%.
 
 ![](images/beforePacking.png)
@@ -22,16 +27,16 @@ Out NFP is used to avoid overlap between objects. Inner NFP is used to ensure th
 
 ![](images/nfp.png)
 
-## below left stratage
+## Below left stratage
 Any Object is packed at the below left position.
 
 ![](images/belowleft.png)
 
-## complex and big first stratage
+## Complex and big first stratage
 
 ![](images/bigfirst.png)
 
-## parallel computation
+## Parallel computation
 The computation of NFPs can be parallelized, we use MPI as the parallel computation tool. 
 
 ![](images/parallel.png) 
