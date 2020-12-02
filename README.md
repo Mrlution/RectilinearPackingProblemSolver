@@ -1,5 +1,5 @@
 # Rectilinear Packing Problem Solver
-![](https://img.shields.io/badge/python-%3E%3D3.7-brightgreen)
+
 ![](https://img.shields.io/github/languages/top/Mrlution/RectilinearPackingProblemSolver?color=brightgreen)
 ![](https://img.shields.io/github/languages/code-size/Mrlution/RectilinearPackingProblemSolver?color=brightgreen)
 ![](https://img.shields.io/github/languages/count/Mrlution/RectilinearPackingProblemSolver?logoColor=brightgreen?color=brightgreen)
@@ -12,9 +12,10 @@ The term rectilinear means the interior angles of the packed blocks are either 9
 ![](images/problem_description.png)
 
 # Requirements
-mpi4py
-pyclipper
-Polygon
+![](https://img.shields.io/badge/python-v3.7.0%20tested-brightgreen)
+![mpi4py==3.0.3](https://pypi.org/project/mpi4py/)
+![pyclipper==1.2.0](https://pypi.org/project/pyclipper/)
+![Polygon3==3.0.8](https://pypi.org/project/Polygon3/)
 
 # How to run
 python main.py -d data_file.txt
