@@ -1,0 +1,30 @@
+@startuml
+scale 1080   width
+start
+floating note left: 优化程序流程图
+'优化程序流程图
+:加载数据文件;
+:加载超参数;
+:计算图形之间,图形和容器之间的NFP,并发送给slave;
+
+partition 初始化种群 {
+    :创建placement基因;
+    :创建rotation基因;
+    while(种群中个体足够了吗？) is (不够)
+        :创建个体;
+    endwhile(够了)
+}
+    while(达到代数) is (没有)
+    :将种群发送给评估脚本slave评估;
+    :得到每个个体的评估结果fitness;
+    partition 生成下一代种群{
+        :选择操作;
+        :交叉操作;
+        :变异操作;
+    }
+    endwhile(达到了)
+    :保存结果;
+    end
+
+@enduml
+

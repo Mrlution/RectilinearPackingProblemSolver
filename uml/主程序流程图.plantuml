@@ -1,0 +1,17 @@
+@startuml
+'主程序流程图 
+scale 1080   width
+start
+floating note left: 主程序流程图
+->Mpi fork;
+fork    
+    :optimization进程;
+fork again
+    :evaluation进程;
+end fork
+end
+@enduml
+
+
+
+

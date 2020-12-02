@@ -1,0 +1,21 @@
+@startuml
+scale 1080   width
+start
+floating note left: slave评估程序流程图
+
+while(接收信号) is (不是终止信号)
+
+    if(接收信号是计算NFP信号)then(yes)
+        :接收图形信息;
+        :计算NFP;
+        :返回计算结果;
+    endif
+    if(接收信号是评估个体信号)then(yes)
+        :接收个体信息;
+        :评估个体;
+        :返回计算结果;
+    endif
+    endwhile(终止信号)
+end
+@enduml
+

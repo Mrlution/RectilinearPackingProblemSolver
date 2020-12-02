@@ -1,0 +1,8 @@
+#!/bin/bash
+gcc -D__USE_XOPEN2K8 -E ./placement.c -o placement.i
+gcc -D__USE_XOPEN2K8 -S ./placement.i -o placement.s
+gcc -D__USE_XOPEN2K8 -c ./placement.s -o placement.o
+gcc -D__USE_XOPEN2K8 placement.o -o placement.exe
+rm ./placement.i
+rm ./placement.s
+rm ./placement.o

@@ -1,0 +1,12 @@
+1.编译步骤
+执行此命令即可编译出placement.exe可执行文件
+./run
+
+2.执行步骤
+要对 /xxx/xxx/inputfig.txt数据集中的图形进行放置并输出,运行下面命令,得到/xxx/xxx/result.txt 结果文件
+placement.exe /xxx/xxx/inputfig.txt 
+
+3.其他注意事项
+请勿改动程序运行环境
+
+
