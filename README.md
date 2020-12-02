@@ -11,10 +11,15 @@ The term rectilinear means the interior angles of the packed blocks are either 9
 
 ![](images/problem_description.png)
 
+[TOC]
+
 # Requirements
 ![](https://img.shields.io/badge/python-v3.7.0%20tested-brightgreen)
+
 [mpi4py==3.0.3](https://pypi.org/project/mpi4py/)
+
 [pyclipper==1.2.0](https://pypi.org/project/pyclipper/)
+
 [Polygon3==3.0.8](https://pypi.org/project/Polygon3/)
 
 # How to run
