@@ -30,6 +30,7 @@ rank = comm.Get_rank()
 def master(data):
     """主程序
 
+
     Args:
         data (str): 数据集路径
     """
