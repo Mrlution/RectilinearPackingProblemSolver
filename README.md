@@ -54,4 +54,4 @@ The computation of NFPs can be parallelized, we use MPI as the parallel computat
 ![](images/parallel.png) 
 
 ## More about this project
-the "doc" folder contain [docx](doc/software_description.docx) and [pptx](doc/software_description.pptx) files, they described this software in detail.
+the "doc" folder contains [docx](doc/software_description.docx) and [pptx](doc/software_description.pptx) files, they described this software in detail.
