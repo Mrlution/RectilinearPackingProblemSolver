@@ -16,6 +16,7 @@ This is an packing example. In our dataset, the average occupation rate is 85%.
 ![](images/afterPacking.png)
 
 # How this work
+
 ## NFP 
 Out NFP is used to avoid overlap between objects. Inner NFP is used to ensure the objects in the bin.
 
@@ -30,4 +31,8 @@ Any Object is packed at the below left position.
 
 ![](images/bigfirst.png)
 
+## parallel computation
+The computation of NFPs can be parallelized, we use MPI as the parallel computation tool. 
+
+![](images/parallel.png) 
 
