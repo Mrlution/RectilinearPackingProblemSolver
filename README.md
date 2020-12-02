@@ -9,6 +9,7 @@ Packing and layout problems are common in both engineering and non-engineering a
 
 The term rectilinear means the interior angles of the packed blocks are either 90 degrees or 270 degrees. The container is usually a rectangle with a fixed width and unrestricted height. The algorithm will pack all the polygonal blocks into the container without overlapping, and generate a height as small as possible.
 
+
 ![](images/problem_description.png)
 
 
@@ -34,12 +35,12 @@ This is an packing example. In our dataset, the average occupation rate is 85%.
 # How this work
 
 ## NFP 
-Out NFP is used to avoid overlap between objects. Inner NFP is used to ensure the objects in the bin.
+Outter NFP is used to avoid overlap between objects. Inner NFP is used to ensure the objects in the bin.
 
 ![](images/nfp.png)
 
 ## Below left stratage
-Any Object is packed at the below left position.
+All Object is packed at the below left position.
 
 ![](images/belowleft.png)
 
@@ -52,3 +53,5 @@ The computation of NFPs can be parallelized, we use MPI as the parallel computat
 
 ![](images/parallel.png) 
 
+## more about this project
+the "doc" folder contain [docx](doc/software_description.docx) and [pptx](doc/software_description.pptx) files, they described this software in detail.
