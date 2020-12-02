@@ -1,7 +1,8 @@
 # Rectilinear Packing Problem Solver
-![](https://img.shields.io/github/languages/top/Mrlution/RectilinearPackingProblemSolver)
-![](https://img.shields.io/github/languages/code-size/Mrlution/RectilinearPackingProblemSolver)
-![](https://img.shields.io/github/languages/count/Mrlution/RectilinearPackingProblemSolver?logoColor=brightgreen)
+![](https://img.shields.io/github/languages/top/Mrlution/RectilinearPackingProblemSolver?color=brightgreen)
+![](https://img.shields.io/github/languages/code-size/Mrlution/RectilinearPackingProblemSolver?color=brightgreen)
+![](https://img.shields.io/github/languages/count/Mrlution/RectilinearPackingProblemSolver?logoColor=brightgreen?color=brightgreen)
+
 
 # Problem Description
 
