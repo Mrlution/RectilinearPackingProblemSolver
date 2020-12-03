@@ -26,7 +26,7 @@ The term rectilinear means the interior angles of the packed blocks are either 9
 python main.py -d data_file.txt
 
 # Result
-This is an packing example. In our dataset, the average occupation rate is 85%.
+This is an packing example. For our dataset, the average occupation rate is 85%.
 
 ![](images/beforePacking.png)
 
