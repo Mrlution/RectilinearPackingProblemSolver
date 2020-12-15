@@ -23,7 +23,8 @@ The term rectilinear means the interior angles of the packed blocks are either 9
 [Polygon3==3.0.8](https://pypi.org/project/Polygon3/) When you install Polygon3, you must begin with a capital "P"
 
 # How to run
-python main.py -d data_file.txt
+```python main.py -d data_file.txt```
+
 look at data/polygon_area_etc_input_id.txt for data format
 
 # Result
